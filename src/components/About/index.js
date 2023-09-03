@@ -22,9 +22,13 @@ const commentsData = [
     }
 ]
 
+const aboutBackground ={
+    backgroundImage:'url("./images/about.png")'
+}
+
 const About = () => {
   return (
-    <div className="about-background-container" data-aos="zoom-in">
+    <div className="about-background-container" data-aos="zoom-in" style={aboutBackground}>
         <div className="comments-container">
             <ul className="cards">
                 {commentsData.map(eachData=>{

@@ -10,8 +10,12 @@ const Home = () => {
     AOS.init({ once: true,duration: 2000 });
   }, []);
 
+  const homeBackground ={
+    backgroundImage:'url("./images/vector.png")'
+  }
+
   return (
-    <div className="home-background-container">
+    <div className="home-background-container" style={homeBackground}>
         <div className="home-text-container" data-aos="fade-right">
             <p className='start-text'>Discover the beauty of the tropics</p>
             <h1 className='title'>Tropical <br/> Destinations <br/><span className='title-span'>For Student</span></h1>
