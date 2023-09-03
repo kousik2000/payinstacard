@@ -59,7 +59,7 @@ const BookingPage = () => {
                     <div>
                         <label htmlFor='room' className='label'>ROOM</label><br/>
                         <div className='star-container' id="room">
-                        <BiPlus className="icon-3" onClick={incrementRoomValue}/><p className='number'>{starValue}</p><BiMinus onClick={decrementRoomValue} className="icon-4"/>
+                        <BiPlus className="icon-3" onClick={incrementRoomValue}/><p className='number'>{roomValue}</p><BiMinus onClick={decrementRoomValue} className="icon-4"/>
                         </div>
                     </div>
                 </div>
