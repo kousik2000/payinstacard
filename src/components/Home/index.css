@@ -1,0 +1,119 @@
+.home-background-container{
+    background-image: url("C:\Users\kousi\payinstacard\public\images\vector.png");
+    width:100%;
+    min-height: 100vh;
+    background-size:cover;
+    padding: 10px 130px 10px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+.start-text{
+    color: #1F2027;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.title{
+    color: #1F2027;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px; 
+}
+.title-span{
+    color: #1F2027;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100px;
+}
+.end-text{
+    color: #505C59;
+    max-width:600px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px; 
+}
+.sign-up-button{
+    padding: 16px 32px;
+    background-color: #F27A44;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    margin-top: 50px; 
+    cursor: pointer;
+}
+.sign-up-button:hover{
+    background-color: #C15C2F;
+    
+}
+.home-image-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.homepage-image-1{
+    width: 80%;
+    height: auto;
+    flex-shrink: 0;
+}
+@media (max-width: 952px) {
+    .home-background-container{
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+        /* padding: 30px 60px 30px 40px; */
+    }
+    .homepage-image-1{
+        width: auto;
+        height: auto;
+    }
+    .home-text-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+}
+  
+@media (max-width: 720px) { 
+    .start-text{
+        font-size: 16px;
+    }
+    .title{
+        font-size: 50px;
+        line-height: 60px; 
+    }
+    .title-span{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .end-text{
+        width:100%;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 30px; 
+    }
+    .home-background-container{
+        width:100%;
+    }
+    .homepage-image-1{
+        width: 300px;
+        height: auto;
+        margin-top: 20px;
+    }
+}

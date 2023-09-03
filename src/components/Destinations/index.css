@@ -1,0 +1,35 @@
+.destinations-container{
+    padding: 10px 130px 10px 130px;
+    width:100%;
+    height:auto;
+}
+.destinations-title{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.destinations-card-container{
+    width: 100%;
+    margin-top: 60px;
+}
+.slide-numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 16px;
+}
+@media (max-width: 952px) {
+    .destinations-container{
+        padding: 10px 40px 10px 40px;
+    }
+    .destinations-title{
+        font-size: 30px;
+       
+    }
+}
+@media (max-width: 720px) {
+}

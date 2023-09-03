@@ -1,0 +1,85 @@
+.destination-card{
+    width:330px;
+    height:auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+.card-image{
+    border-radius: 20px;
+}
+.destination-card-title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.destination-card-description{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.icon-1{
+    color: #F27A44;
+    font-size: 24px;
+    margin-right: 5px;
+}
+.rating-container{
+    display: flex;
+    border-radius: 21px;
+    background: #FFF;
+    padding: 10px 20px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-items: center;
+}
+.exclusive-container{
+    color:white;
+    font-size: 14px;
+    font-family: Roboto;
+    padding: 10px 16px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 60px;
+}
+.rating-exclusive-container{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top:210px;
+    padding:15px;
+}
+.image-rating-exclusive-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.more-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:25px;
+}
+.icon-2{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    background: #F2F2F2;
+    font-size: 16px;
+}

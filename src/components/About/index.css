@@ -1,0 +1,132 @@
+.about-background-container{
+    background-image: url("C:\Users\kousi\payinstacard\public\images\about.png");
+    width:100%;
+    min-height: 100vh;
+    background-size:cover;
+    padding: 10px 130px 10px 130px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.comments-container{
+    width:50%;
+}
+.cards{
+    list-style:none;
+}
+.comment-card{
+    display: flex;
+    width: 360px;
+    padding: 25px;
+    align-items: center;
+    gap: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.comment-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    flex-shrink: 0;
+}
+.comment-card-title{
+    color: var(--black, #000);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.comment-card-description{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+.explore-now-container{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.explore-title{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.explore-title-span{
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.explore-paragraph{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.explore-unordered-list{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.explore-list{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.explore-button{
+    display: flex;
+    padding: 16px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border: none;
+    margin-top: 50px;
+    color: white;
+    border-radius: 30px;
+    background: #F27A44;
+    cursor: pointer;
+}
+.explore-button:hover{
+    background-color: #C15C2F;
+}
+@media (max-width: 952px) {
+    .about-background-container{
+        padding: 10px 40px 10px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+    }
+    .comments-container{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .comment-card{
+        width: 500px;
+    }
+    .explore-now-container{
+        margin-top: 50px;
+        padding-left:0px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 720px) {
+    .comment-card{
+        width: 100%;
+    }
+}
