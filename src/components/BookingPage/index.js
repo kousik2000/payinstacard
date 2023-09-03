@@ -13,8 +13,10 @@ const BookingPage = () => {
     };
 
     const decrementStarValue = () => {
-        if (starValue > 0) {
+        if (starValue > 1) {
             setStarValue(starValue - 1);
+        }else{
+            setStarValue(1);
         }
     };
 
@@ -23,8 +25,10 @@ const BookingPage = () => {
     };
 
     const decrementRoomValue = () => {
-        if (starValue > 0) {
+        if (starValue > 1) {
             setRoomValue(roomValue - 1);
+        }else{
+            setRoomValue(1);
         }
     };
 
