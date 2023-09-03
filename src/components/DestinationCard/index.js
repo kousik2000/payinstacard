@@ -16,7 +16,7 @@ const DestinationCard = (props) => {
     };
 
   return (
-    <div className='destination-card' data-aos="fade-up" >
+    <div className='destination-card'  >
         <div className='image-rating-exclusive-container'>
         <img src={imageUrl} alt="card" className="card-image" style={containerStyle}/>
         <div className='rating-exclusive-container'>
