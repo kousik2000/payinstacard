@@ -3,4 +3,7 @@
   padding:0px;
   box-sizing:content-box;
 }
+.main-container{
+  animation-timing-function: linear;
+}
 
